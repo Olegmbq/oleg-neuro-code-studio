@@ -1,35 +1,130 @@
 # 🧠⚙️ Oleg & Neuro Code Studio
 
-## Business Engine
+### Business Engine · Digital products built with care
 
-Мы создаём надёжные цифровые продукты
-и остаёмся рядом с людьми, пока они ими пользуются.
+---
 
-## Кто мы
+## 🇷🇺 Русская версия
 
-Студия, где человеческое ремесло и интеллект работают вместе.
-Мы строим системы и продукты надолго.
+### Кто мы
 
-## Наш подход
+**Oleg & Neuro Code Studio** — это независимая студия цифровых продуктов.  
+Мы создаём инструменты и шаблоны, которые помогают начинать проекты **спокойно, структурно и надолго**.
 
-- Код — ремесло
-- Качество важнее скорости
-- Система важнее импульса
-- Пользователь не один
+Мы не гонимся за скоростью ради скорости.  
+Мы строим фундамент — и отвечаем за то, что выпускаем.
 
-👉 Полный манифест: [MANIFESTO.md](./MANIFESTO.md)
+Если что-то не получается — вы не одни. Мы рядом.
 
-## Business Engine
+---
 
-Все продукты — части единой системы.
+### 📦 Продукты
 
-## Наш первый продукт
+#### ⚙️ Starter Kit (v0.1)
 
-Универсальный **core-package** — основа для пакетов/шаблонов/сервисов.  
-👉 Начать: [`products/core-package`](./products/core-package)
+Минимальный, но продуманный каркас проекта.
 
-## Поддержка
+Подойдёт, если вам нужен:
 
-Мы рядом и помогаем двигаться дальше.
+- понятный старт без хаоса
+- структура, а не “волшебная кнопка”
+- база для роста проекта
 
-**Мышление → Система → Код → Продукт → Рост**
+📍 Репозиторий продукта:  
+`products/core-package`
+
+👉 Подробнее: [Starter Kit README](./products/core-package/README.md)
+
+---
+
+### 🧭 С чего начать
+
+1. Ознакомьтесь с продуктом Starter Kit
+2. Прочитайте Welcome и Usage
+3. Используйте шаблон как основу своего проекта
+
+---
+
+### 🧠 Наш подход
+
+Мы относимся к коду как к ремеслу.  
+Структура важнее моды.  
+Спокойствие важнее суеты.
+
+👉 Полный манифест студии:  
+[MANIFESTO.md](./MANIFESTO.md)
+
+👉 Документ бренда:  
+[BRAND-DOC.md](./BRAND-DOC.md)
+
+---
+
+## 🌍 English version
+
+### Who we are
+
+**Oleg & Neuro Code Studio** is an independent digital product studio.  
+We build tools and templates designed for **calm, structured, long-term work**.
+
+We don’t chase speed for the sake of speed.  
+We focus on foundations — and we take responsibility for what we release.
+
+If something doesn’t work out — you’re not alone. We’re here.
+
+---
+
+### 📦 Products
+
+#### ⚙️ Starter Kit (v0.1)
+
+A minimal yet thoughtfully designed project foundation.
+
+Best for those who want:
+
+- a clear starting point
+- structure instead of shortcuts
+- a solid base to grow a product
+
+📍 Product location:  
+`products/core-package`
+
+👉 Read more:  
+[Starter Kit README](./products/core-package/README.md)
+
+> Note: Product documentation is currently available in Russian.  
+> English versions are planned as the project evolves.
+
+---
+
+### 🧭 Getting started
+
+1. Explore the Starter Kit
+2. Read Welcome and Usage docs
+3. Use the template as the base for your project
+
+---
+
+### 🧠 Our philosophy
+
+We treat code as a craft.  
+Structure over trends.  
+Calm over rush.
+
+👉 Full studio manifesto:  
+[MANIFESTO.md](./MANIFESTO.md)
+
+👉 Brand document:  
+[BRAND-DOC.md](./BRAND-DOC.md)
+
+---
+
+## 🌱 Status
+
+- Starter Kit v0.1 — ✅ released
+- v0.2 — planned
+- Website / Manifesto page — planned
+
+---
+
+© Oleg & Neuro Code Studio  
+Built with care. Structured for the long run.
