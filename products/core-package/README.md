@@ -55,7 +55,14 @@ Welcome — welcome.md
 Если что-то не получается — вы не одни. Мы рядом.
 
 👉 Полный манифест Code Studio:
-MANIFESTO.md
+[MANIFESTO.md](../../MANIFESTO.md)
+
+---
+
+## 🟢 Status
+
+- **Starter Kit v0.1** — released
+- **Starter Kit v0.2** — planned
 
 🌱 Roadmap
 Смотри: docs/roadmap.md
