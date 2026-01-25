@@ -33,7 +33,7 @@
 📍 Репозиторий продукта:  
 `products/core-package`
 
-👉 Подробнее: [Starter Kit README](./products/core-package/README.md)
+👉 Подробнее: [Starter Kit README](/products/core-package/README.md)
 
 ---
 
@@ -52,10 +52,10 @@
 Спокойствие важнее суеты.
 
 👉 Полный манифест студии:  
-[MANIFESTO.md](./MANIFESTO.md)
+[MANIFESTO-FULL.md](/MANIFESTO-FULL.md)
 
 👉 Документ бренда:  
-[BRAND-DOC.md](./BRAND-DOC.md)
+[BRAND-DOC.md](/BRAND-DOC.md)
 
 ---
 
@@ -89,7 +89,7 @@ Best for those who want:
 `products/core-package`
 
 👉 Read more:  
-[Starter Kit README](./products/core-package/README.md)
+[Starter Kit README](/products/core-package/README.en.md)
 
 > Note: Product documentation is currently available in Russian.  
 > English versions are planned as the project evolves.
@@ -111,10 +111,10 @@ Structure over trends.
 Calm over rush.
 
 👉 Full studio manifesto:  
-[MANIFESTO.md](./MANIFESTO.md)
+[MANIFESTO-FULL.md](/MANIFESTO-FULL.md)
 
 👉 Brand document:  
-[BRAND-DOC.md](./BRAND-DOC.md)
+[BRAND-DOC.md](/BRAND-DOC.md)
 
 ---
 
