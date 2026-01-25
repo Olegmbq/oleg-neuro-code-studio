@@ -61,6 +61,14 @@
 
 ## 🌍 English version
 
+### 🌐 Website / Manifesto
+
+Code Studio website & manifesto draft  
+(structure, tone, direction).
+
+- 🇬🇧 EN version: [Website Draft](/products/website/README.en.md)
+- 🇷🇺 RU version: [Website Draft (RU)](/products/website/README.md)
+
 ### Who we are
 
 **Oleg & Neuro Code Studio** is an independent digital product studio.  
@@ -69,7 +77,8 @@ We build tools and templates designed for **calm, structured, long-term work**.
 We don’t chase speed for the sake of speed.  
 We focus on foundations — and we take responsibility for what we release.
 
-If something doesn’t work out — you’re not alone. We’re here.
+If something doesn’t work out — you’re not alone.  
+We work with you, not above you.
 
 ---
 
@@ -91,8 +100,9 @@ Best for those who want:
 👉 Read more:  
 [Starter Kit README](/products/core-package/README.en.md)
 
-> Note: Product documentation is currently available in Russian.  
-> English versions are planned as the project evolves.
+> Note:  
+> Core product documentation is available in English.  
+> Some advanced materials may still appear in Russian first.
 
 ---
 
@@ -108,7 +118,8 @@ Best for those who want:
 
 We treat code as a craft.  
 Structure over trends.  
-Calm over rush.
+Calm over rush.  
+Long-term over shortcuts.
 
 👉 Full studio manifesto:  
 [MANIFESTO-FULL.md](/MANIFESTO-FULL.md)
@@ -121,7 +132,7 @@ Calm over rush.
 ## 🌱 Status
 
 - Starter Kit v0.1 — ✅ released
-- v0.2 — planned
+- Starter Kit v0.2 — planned
 - Website / Manifesto page — planned
 
 ---
