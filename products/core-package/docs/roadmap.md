@@ -1,3 +1,6 @@
+> 🇷🇺 Russian version  
+> 🇬🇧 English version: [roadmap.en.md](./roadmap.en.md)
+
 # 🌱 Roadmap
 
 - улучшение документации
