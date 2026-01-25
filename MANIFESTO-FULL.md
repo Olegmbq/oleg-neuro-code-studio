@@ -1,3 +1,6 @@
+> 🇷🇺 Russian version  
+> 🇬🇧 English version: [MANIFESTO-FULL.en.md](/MANIFESTO-FULL.en.md)
+
 🧠⚙️ Oleg & Neuro Code Studio — Business Engine
 Манифест
 
