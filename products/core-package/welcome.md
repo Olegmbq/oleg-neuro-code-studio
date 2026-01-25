@@ -12,4 +12,4 @@
 Если что-то не получается — вы не одни.
 Мы рядом.
 
-👉 Полный манифест: [MANIFESTO.md](../../MANIFESTO.md)
+👉 Полный манифест: [MANIFESTO-FULL.md](/MANIFESTO-FULL.md)
