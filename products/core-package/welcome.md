@@ -1,3 +1,6 @@
+> 🇷🇺 Russian version  
+> 🇬🇧 English version: [welcome.en.md](./welcome.en.md)
+
 # 🧠⚙️ Welcome · Наш подход
 
 Этот продукт — часть **Business Engine**
