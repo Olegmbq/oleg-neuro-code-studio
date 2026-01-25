@@ -1,3 +1,6 @@
+> 🇷🇺 Russian version  
+> 🇬🇧 English version: [README.en.md](./README.en.md)
+
 # ⚙️ Oleg & Neuro — Starter Kit (v0.1)
 
 ## Core Package · Business Engine
