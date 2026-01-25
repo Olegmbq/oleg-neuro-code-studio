@@ -1,3 +1,6 @@
+> 🇷🇺 Russian version  
+> 🇬🇧 English version: [support.en.md](./support.en.md)
+
 # 🧑‍🤝‍🧑 Поддержка
 
 Опишите:
