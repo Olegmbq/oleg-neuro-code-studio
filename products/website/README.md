@@ -1,3 +1,6 @@
+> 🇷🇺 Russian version  
+> 🇬🇧 English version: [README.en.md](./README.en.md)
+
 # 🌐 Oleg & Neuro Code Studio — Website / Manifesto
 
 ## Concept & Structure (Draft)
