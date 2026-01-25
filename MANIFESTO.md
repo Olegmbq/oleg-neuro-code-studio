@@ -1,3 +1,6 @@
+> 🇷🇺 Russian version  
+> 🇬🇧 English version: [MANIFESTO.en.md](/MANIFESTO.en.md)
+
 # Oleg & Neuro Code Studio — Business Engine
 
 ## Manifesto
