@@ -1,3 +1,6 @@
+> 🇷🇺 Russian version  
+> 🇬🇧 English version: [BRAND-DOC.en.md](/BRAND-DOC.en.md)
+
 # 🧱 BRAND-DOC
 
 ## Oleg & Neuro Code Studio — Business Engine
