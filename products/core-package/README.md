@@ -24,7 +24,7 @@ bash create-project.sh my-new-project
 
 ## 📦 Что внутри
 
-- `template/` — базовая структура будущего проекта
+- `templates/` — набор шаблонов проектов (base, vite-react)
 
 - `scripts/` — генерация нового проекта из шаблона
 
@@ -67,10 +67,36 @@ Welcome — welcome.md
 
 ---
 
+## 🚀 Starter Kit v0.2
+
+Starter Kit v0.2 adds a **real project generator** with a working template.
+
+### Что добавлено
+
+- полноценный шаблон **Vite + React**
+- генерация проекта одной командой
+- готовый к запуску dev-сервер
+
+### Пример использования
+
+```bash
+cd products/core-package/scripts
+bash create-project.sh my-app vite-react
+
+cd my-app
+npm install
+npm run dev
+
+```
+
+Проект сразу запускается в браузере.
+
+---
+
 ## 🟢 Status
 
 - **Starter Kit v0.1** — released
-- **Starter Kit v0.2** — planned
+- **Starter Kit v0.2** — released (Vite + React templates)
 
 ## 🌱 Roadmap
 
