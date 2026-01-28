@@ -19,6 +19,7 @@ Create a new project from the template:
 
 ```bash
 cd products/core-package/scripts
+
 bash create-project.sh my-new-project
 
 ```
@@ -27,7 +28,7 @@ bash create-project.sh my-new-project
 
 ## 📦 What’s Inside
 
-- `template/` — base structure for a future project
+- `templates/` — a set of project templates (base, vite-react)
 
 - `scripts/` — project generation from the template
 
@@ -76,11 +77,39 @@ Detailed documentation (usage, support, roadmap)
 is currently available in Russian.
 English versions are planned.
 
+---
+
+## 🚀 Starter Kit v0.2
+
+Starter Kit v0.2 introduces a **real project generator** with working templates.
+
+### What’s new
+
+- fully functional **Vite + React** template
+- project generation with a single command
+- ready-to-run development server
+
+### Example usage
+
+```bash
+cd products/core-package/scripts
+bash create-project.sh my-app vite-react
+
+cd my-app
+npm install
+npm run dev
+
+```
+
+The project starts immediately in the browser.
+
+---
+
 ## 🟢 Status
 
 - Starter Kit v0.1 — released
 
-- Starter Kit v0.2 — planned
+- Starter Kit v0.2 — released (Vite + React templates)
 
 ## 🌱 Roadmap
 
