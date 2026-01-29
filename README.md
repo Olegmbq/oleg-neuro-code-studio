@@ -2,6 +2,10 @@
 
 ### Business Engine · Digital products built with care
 
+🟢 **Latest release:**  
+**Starter Kit v0.2 — Vite + React Project Generator**  
+👉 https://github.com/Olegmbq/oleg-neuro-code-studio/releases/tag/v0.2.0
+
 ---
 
 ## 🇷🇺 Русская версия
