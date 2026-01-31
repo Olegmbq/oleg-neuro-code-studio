@@ -1,25 +1,24 @@
 > 🇬🇧 English version  
 > 🇷🇺 Russian version: [README.md](./README.md)
 
-# ⚙️ Oleg & Neuro — Starter Kit (v0.1)
+# ⚙️ Oleg & Neuro — Starter Kit
 
 ## Core Package · Business Engine
 
 Starter Kit is a minimal yet thoughtfully designed project foundation by  
 **Oleg & Neuro Code Studio**.
 
-It is created as a **starting point** — clear structure, essential documents,  
+It serves as a **starting point** — clear structure, essential documentation,  
 and a calm, focused beginning without chaos.
 
 ---
 
 ## 🚀 Quick Start
 
-Create a new project from the template:
+Create a new project from a template:
 
 ```bash
 cd products/core-package/scripts
-
 bash create-project.sh my-new-project
 
 ```
@@ -28,13 +27,13 @@ bash create-project.sh my-new-project
 
 ## 📦 What’s Inside
 
-- `templates/` — a set of project templates (base, vite-react)
+- `templates/` — project templates (base, vite-react, node-api)
 
-- `scripts/` — project generation from the template
+- `scripts/` — project generation tools
 
 - `docs/` — usage, support, roadmap
 
-- `welcome.md` — our approach and entry point
+- `welcome.md` — mindset and entry point
 
 ## ✅ Who This Is For
 
@@ -51,7 +50,6 @@ bash create-project.sh my-new-project
 - if you don’t want documentation or structure
 
 - if you need a ready-made React / Vite project right now
-  (this is planned for v0.2)
 
 ## 🧭 Where to Start
 
@@ -63,19 +61,17 @@ bash create-project.sh my-new-project
 
 ## 🧠 Our Principle
 
-We build calmly, systematically, and for the long term.
+We treat code as a craft.
+Structure over trends.
+Calm over rush.
+Long-term over shortcuts.
+
 If something doesn’t work — you are not alone. We are here.
 
 ## 📖 Manifesto
 
 Full Code Studio manifesto (RU):
 [MANIFESTO-FULL.md](../../MANIFESTO-FULL.md)
-
-## 📌 Note:
-
-Detailed documentation (usage, support, roadmap)
-is currently available in Russian.
-English versions are planned.
 
 ---
 
@@ -101,15 +97,46 @@ npm run dev
 
 ```
 
-The project starts immediately in the browser.
+Open in browser:
+
+- http://localhost:5173/
 
 ---
 
+## 🚀 Starter Kit v0.3 (Backend)
+
+Node/API (Express) template.
+Adds server capabilities and turns Starter Kit into a full-stack foundation.
+
+### Includes
+
+- Node + Express API
+- API versioning `/api/v1`
+- health endpoint `/api/v1/health`
+- friendly root endpoint `/`
+- basic security & logging (helmet, cors, morgan)
+
+### Example
+
+```bash
+cd products/core-package/templates/node-api
+npm install
+npm run dev
+
+```
+
+Server available at:
+
+- http://localhost:4000/
+- http://localhost:4000/api/v1/health
+
 ## 🟢 Status
 
-- Starter Kit v0.1 — released
+- Starter Kit v0.1 — released (Foundation)
 
-- Starter Kit v0.2 — released (Vite + React templates)
+- Starter Kit v0.2 — released (Frontend / React)
+
+- Starter Kit v0.3 — released (Backend / Node API)
 
 ## 🌱 Roadmap
 
