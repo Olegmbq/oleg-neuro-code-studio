@@ -1,7 +1,7 @@
 > 🇷🇺 Russian version  
 > 🇬🇧 English version: [README.en.md](./README.en.md)
 
-# ⚙️ Oleg & Neuro — Starter Kit (v0.1)
+# ⚙️ Oleg & Neuro — Starter Kit
 
 ## Core Package · Business Engine
 
@@ -24,7 +24,7 @@ bash create-project.sh my-new-project
 
 ## 📦 Что внутри
 
-- `templates/` — набор шаблонов проектов (base, vite-react)
+- `templates/` — набор шаблонов проектов (base, vite-react, node-api)
 
 - `scripts/` — генерация нового проекта из шаблона
 
@@ -67,17 +67,11 @@ Welcome — welcome.md
 
 ---
 
-## 🚀 Starter Kit v0.2
+## 🚀 Starter Kit v0.2 (Frontend)
 
-Starter Kit v0.2 adds a **real project generator** with a working template.
+Шаблон **Vite + React** для быстрого старта интерфейса.
 
-### Что добавлено
-
-- полноценный шаблон **Vite + React**
-- генерация проекта одной командой
-- готовый к запуску dev-сервер
-
-### Пример использования
+### Пример запуска
 
 ```bash
 cd products/core-package/scripts
@@ -89,14 +83,45 @@ npm run dev
 
 ```
 
-Проект сразу запускается в браузере.
+Открыть в браузере:
+
+- http://localhost:5173/
+
+---
+
+## 🚀 Starter Kit v0.3 (Backend)
+
+### Что добавлено
+
+- шаблон **Node/API (Express)**
+- версионирование API: `/api/v1`
+- health endpoint: `/api/v1/health`
+- дружелюбный root endpoint: `/`
+- базовая безопасность и логи (helmet, cors, morgan)
+
+### Пример запуска шаблона
+
+```bash
+cd products/core-package/templates/node-api
+npm install
+npm run dev
+
+```
+
+Сервер доступен:
+
+- http://localhost:4000/
+- http://localhost:4000/api/v1/health
 
 ---
 
 ## 🟢 Status
 
-- **Starter Kit v0.1** — released
-- **Starter Kit v0.2** — released (Vite + React templates)
+- **Starter Kit v0.1** — released (Foundation)
+- **Starter Kit v0.2** — released (Vite + React generator)
+- **Starter Kit v0.3** — released (Node/API template, full-stack)
+
+---
 
 ## 🌱 Roadmap
 
