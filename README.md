@@ -3,8 +3,8 @@
 ### Business Engine · Digital products built with care
 
 🟢 **Latest release:**  
-**Starter Kit v0.2 — Vite + React Project Generator**  
-👉 https://github.com/Olegmbq/oleg-neuro-code-studio/releases/tag/v0.2.0
+**Starter Kit v0.3 — Node/API Template (Full-stack foundation)**  
+👉 https://github.com/Olegmbq/oleg-neuro-code-studio/releases/tag/v0.3.0
 
 ---
 
@@ -24,17 +24,15 @@
 
 ### 📦 Продукты
 
-#### ⚙️ Starter Kit (v0.1)
+#### ⚙️ Starter Kit
 
-Минимальный, но продуманный каркас проекта.
+Линейка базовых шаблонов для спокойного и структурного старта.
 
-Подойдёт, если вам нужен:
+- v0.1 — Foundation (философия, документация, структура)
+- v0.2 — Vite + React Project Generator
+- v0.3 — Node/API Template (backend + full-stack)
 
-- понятный старт без хаоса
-- структура, а не “волшебная кнопка”
-- база для роста проекта
-
-📍 Репозиторий продукта:  
+📍 Расположение:  
 `products/core-package`
 
 👉 Подробнее: [Starter Kit README](/products/core-package/README.md)
@@ -65,14 +63,6 @@
 
 ## 🌍 English version
 
-### 🌐 Website / Manifesto
-
-Code Studio website & manifesto draft  
-(structure, tone, direction).
-
-- 🇬🇧 EN version: [Website Draft](/products/website/README.en.md)
-- 🇷🇺 RU version: [Website Draft (RU)](/products/website/README.md)
-
 ### Who we are
 
 **Oleg & Neuro Code Studio** is an independent digital product studio.  
@@ -88,25 +78,19 @@ We work with you, not above you.
 
 ### 📦 Products
 
-#### ⚙️ Starter Kit (v0.1)
+#### ⚙️ Starter Kit
 
-A minimal yet thoughtfully designed project foundation.
+A series of foundations and templates for calm, structured project starts.
 
-Best for those who want:
+- v0.1 — Foundation (mindset, docs, structure)
+- v0.2 — Vite + React Project Generator
+- v0.3 — Node/API Template (backend + full-stack)
 
-- a clear starting point
-- structure instead of shortcuts
-- a solid base to grow a product
-
-📍 Product location:  
+📍 Location:  
 `products/core-package`
 
 👉 Read more:  
 [Starter Kit README](/products/core-package/README.en.md)
-
-> Note:  
-> Core product documentation is available in English.  
-> Some advanced materials may still appear in Russian first.
 
 ---
 
@@ -118,7 +102,7 @@ Best for those who want:
 
 ---
 
-### 🧠 Our philosophy
+### 🧠 Philosophy
 
 We treat code as a craft.  
 Structure over trends.  
@@ -136,7 +120,8 @@ Long-term over shortcuts.
 ## 🌱 Status
 
 - Starter Kit v0.1 — ✅ released
-- Starter Kit v0.2 — planned
+- Starter Kit v0.2 — ✅ released
+- Starter Kit v0.3 — ✅ released (Node/API, full-stack)
 - Website / Manifesto page — planned
 
 ---
