@@ -42,3 +42,5 @@ export function createApp() {
 
   return app;
 }
+
+const a = 1;
