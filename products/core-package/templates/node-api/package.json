@@ -16,7 +16,7 @@
     "docker:down": "docker compose down -v"
   },
   "lint-staged": {
-    "*.{js,json}": [
+    "**/*.{js,json}": [
       "prettier --write",
       "eslint --fix"
     ]
