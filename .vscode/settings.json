@@ -1,0 +1,36 @@
+{
+  // ========================
+  // File types (Docker fix)
+  // ========================
+  "files.associations": {
+    ".dockerignore": "ignore",
+    "Dockerfile": "dockerfile",
+    "docker-compose.yml": "yaml"
+  },
+
+  // ========================
+  // Prettier auto-format
+  // ========================
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // ========================
+  // ESLint auto-fix
+  // ========================
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // ========================
+  // Clean editor feel
+  // ========================
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // ========================
+  // JS/Node comfort
+  // ========================
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false
+}
