@@ -1,66 +1,128 @@
-# Node/API Template (Starter Kit v0.3)
+🇷🇺 Русская версия: [README.md](./README.md)
 
-A minimal Node.js API template built with Express.
+# ⚙️ Node/API Template — Starter Kit v0.4
 
-The goal is to provide a calm and clean foundation
-for any backend project:
+A minimal **Node.js API boilerplate built with Express**
+by **Oleg & Neuro Code Studio**.
+
+Designed as a calm and clean foundation
+to start any backend project:
+
 • API
 • service
-• admin panel
 • e-commerce
+• admin panel
 • microservice
 
-No magic. Just structure.
+No magic.
+Only structure, clarity, and good engineering culture.
 
 ---
 
-## Included
+## ✨ Features
+
+### Core
 
 - Express
 - CORS
 - Helmet (security)
 - Morgan (logs)
-- .env configuration
-- API versioning (/api/v1)
+- `.env` configuration
+- API versioning (`/api/v1`)
 - Health endpoint
 
----
+### DX (v0.4)
 
-## Quick start
-
-1. Copy `.env.example` → `.env`
-2. Install dependencies
-
-   npm i
-
-3. Run
-
-   npm run dev
+- Dockerfile
+- docker-compose
+- Prettier
+- ESLint
+- Husky (pre-commit hooks)
+- lint-staged
+- .editorconfig
+- auto format & lint before commit
 
 ---
 
-## Check
+## 🚀 Quick Start
 
-Root
+### Local (Node)
+
+```bash
+cd templates/node-api
+cp .env.example .env
+npm install
+npm run dev
+
+```
+
+---
+
+## 🐳 Docker (production-like environment)
+
+```bash
+cd templates/node-api
+docker compose up --build
+
+```
+
+---
+
+## 🔍 Endpoints
+
+Root:
 http://localhost:4000/
 
-Health
+Health:
 http://localhost:4000/api/v1/health
 
 ---
 
-## Philosophy
+## 📁 Project Structure
 
-This is not a ready-made server.
+```mpx
+src/
+  app.js
+  server.js
+  config/
+  routes/
+    v1/
+      health.routes.js
+  middlewares/
+  utils/
 
-It is:
-• structure
-• clarity
-• a clean starting point
-
-Add only what your project really needs.
+```
 
 ---
 
-Oleg & Neuro Code Studio
-Starter Kit series
+## 🧠 Philosophy
+
+This is not a “ready-made server”.
+
+This is:
+
+• structure
+• culture
+• a clean starting point
+
+You add only what your project really needs.
+
+No chaos. No unnecessary dependencies. No magic.
+
+---
+
+🧩 Part of
+
+Oleg & Neuro — Starter Kit series
+
+- v0.1 → foundation
+
+- v0.2 → frontend
+
+- v0.3 → backend
+
+- v0.4 → production DX
+
+---
+
+Made with ❤️ by Oleg & Neuro Code Studio

@@ -1,70 +1,108 @@
-# Node/API Template (Starter Kit v0.3)
+🇬🇧 English: [README.en.md](./README.en.md)
 
-Минималистичный шаблон для Node.js API на Express.
+# ⚙️ Node/API Template — Starter Kit v0.4
 
-Цель — дать спокойный, чистый фундамент,
+Минималистичный шаблон для **Node.js API на Express**
+от **Oleg & Neuro Code Studio**.
+
+Создан как спокойный, чистый фундамент,
 с которого можно начать любой backend-проект:
+
 • API
 • сервис
 • интернет-магазин
 • админку
 • микросервис
 
-Без лишней магии. Только структура и порядок.
+Без лишней магии. Только структура, порядок и культура кода.
 
 ---
 
-## Что внутри
+## ✨ Features
+
+### Core
 
 - Express
 - CORS
 - Helmet (security)
 - Morgan (logs)
-- .env конфигурация
-- Версионирование API (/api/v1)
+- `.env` конфигурация
+- Версионирование API (`/api/v1`)
 - Health endpoint
 
----
+### DX (v0.4)
 
-## Быстрый старт
-
-1. Скопируй `.env.example` → `.env`
-2. Установи зависимости
-
-   npm i
-
-3. Запусти сервер
-
-
-
-   npm run dev
+- Dockerfile
+- docker-compose
+- Prettier
+- ESLint
+- Husky (pre-commit hooks)
+- lint-staged
+- .editorconfig
+- авто-формат и авто-линт перед commit
 
 ---
 
-## Проверка
+## 🚀 Quick Start
 
-Открой в браузере:
+### Local (Node)
 
-Root (friendly)
+```bash
+# перейти в шаблон
+cd templates/node-api
+
+# создать env
+cp .env.example .env
+
+# установить зависимости
+npm install
+
+# запуск dev сервера
+npm run dev
+
+```
+
+---
+
+## 🐳 Docker (рекомендуется для production-like среды)
+
+```bash
+cd templates/node-api
+docker compose up --build
+
+```
+
+---
+
+## 🔍 Проверка
+
+Root:
 http://localhost:4000/
 
-Health check
+Health:
 http://localhost:4000/api/v1/health
 
 ---
 
-## Структура
+## 📁 Project Structure
+
+```mpx
 
 src/
-app.js
-server.js
-routes/
-v1/
-health.routes.js
+  app.js
+  server.js
+  config/
+  routes/
+    v1/
+      health.routes.js
+  middlewares/
+  utils/
+
+```
 
 ---
 
-## Философия
+## 🧠 Философия
 
 Это не «готовый сервер».
 
@@ -75,7 +113,26 @@ health.routes.js
 
 Ты добавляешь только то, что нужно твоему проекту.
 
+Без хаоса. Без лишних зависимостей. Без магии.
+
 ---
 
-Oleg & Neuro Code Studio
-Starter Kit series
+## 🧩 Part of
+
+Oleg & Neuro — Starter Kit series
+
+- v0.1 → foundation
+
+- v0.2 → frontend
+
+- v0.3 → backend
+
+- v0.4 → production DX
+
+---
+
+Made with ❤️ by Oleg & Neuro Code Studio
+
+```
+
+```
