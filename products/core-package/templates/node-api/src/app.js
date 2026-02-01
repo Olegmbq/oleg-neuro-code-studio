@@ -26,7 +26,7 @@ export function createApp() {
     res.json({
       ok: true,
       name: 'Starter Kit Node/API Template',
-      version: 'v0.3',
+      version: 'v0.4.0',
       endpoints: {
         health: '/api/v1/health',
       },
@@ -42,5 +42,3 @@ export function createApp() {
 
   return app;
 }
-
-const a = 1;
