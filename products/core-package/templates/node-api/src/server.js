@@ -8,3 +8,5 @@ app.listen(env.port, () => {
   logger.info(`API started on http://localhost:${env.port}`);
   logger.info(`Environment: ${env.nodeEnv}`);
 });
+
+console.log('hook works');
