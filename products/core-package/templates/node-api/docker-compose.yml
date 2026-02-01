@@ -1,0 +1,26 @@
+services:
+  api:
+    build: .
+    ports:
+      - '${PORT:-4000}:4000'
+    env_file:
+      - .env
+    depends_on:
+      - db
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    command: npm run dev
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: app_db
+    ports:
+      - '3306:3306'
+    volumes:
+      - dbdata:/var/lib/mysql
+
+volumes:
+  dbdata:

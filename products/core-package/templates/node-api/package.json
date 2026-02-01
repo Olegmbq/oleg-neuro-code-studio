@@ -1,13 +1,25 @@
 {
   "name": "node-api-template",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
-  "description": "Oleg & Neuro Starter Kit v0.3 — Node/API template (Express).",
+  "description": "Oleg & Neuro Starter Kit v0.4 — Node/API template (Express + Docker + DX).",
   "scripts": {
+    "setup": "npm install",
     "dev": "node --watch src/server.js",
     "start": "node src/server.js",
-    "lint": "node -e \"console.log('Add ESLint later if needed')\""
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "docker:up": "docker compose up --build",
+    "docker:down": "docker compose down -v"
+  },
+  "lint-staged": {
+    "*.{js,json}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -15,5 +27,12 @@
     "express": "^4.19.2",
     "helmet": "^7.1.0",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.2.5"
   }
 }
